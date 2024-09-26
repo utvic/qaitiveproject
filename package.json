@@ -1,0 +1,19 @@
+{
+  "name": "jelena",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "apiTest":"cypress run --spec cypress/e2e/API/*",
+    "articleCrud":"cypress run --spec cypress/e2e/Article/CRUD/*",
+    "articleFavourites":"cypress run --spec cypress/e2e/Article/Favourites/*",
+    "loginTest":"cypress run --spec cypress/e2e/Login/*",
+    "signUpTest":"cypress run --spec cypress/e2e/SingUp/*"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.10.0"
+  }
+}
